@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
-import ParticleBackground from "../components/ParticleBackground";
 import TypeWrite from "../components/TypeWrite";
 import Intro from "../components/Intro";
 import Footer from "../components/Footer";
@@ -12,7 +11,6 @@ const Home = () => {
     return (
     <section>
         <Container fluid className="home-section" id="home">
-        {/* <ParticleBackground /> */}
         <Container className="home-content">
           <Row>
             <Col md={7} className="home-header">
@@ -44,7 +42,6 @@ const Home = () => {
         </Container>
       </Container>
       <Intro />
-      <Footer/>
     </section>
     )
 }

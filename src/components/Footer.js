@@ -35,7 +35,6 @@ function Footer() {
               <a
                 href="#"
                 style={{ color: "white" }}
-                target="_blank" 
                 rel="noopener noreferrer"
               >
                 <AiOutlineTwitter />
@@ -55,7 +54,6 @@ function Footer() {
               <a
                 href="#"
                 style={{ color: "white" }}
-                target="_blank" 
                 rel="noopener noreferrer"
               >
                 <AiFillInstagram />

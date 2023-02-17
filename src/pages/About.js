@@ -98,7 +98,6 @@ const About = () => {
             </Col>
           </Row>
         </Container>
-      <Footer/>
     </section>
     )
 }
