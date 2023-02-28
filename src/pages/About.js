@@ -18,6 +18,7 @@ const About = () => {
              {"skill":"PHP","icon":"FaPhp"},
              {"skill":"MySql","icon":"FaFish"},
              {"skill":"Redux","icon":"FaReact"},
+             {"skill":"Nodejs","icon":"FaNodeJs"},
              {"skill":"Github","icon":"FaGithub"},
             ];
 
@@ -44,7 +45,7 @@ const About = () => {
                     Hi Everyone, I am <span className="purple">Vamsi </span>
                     from <span className="purple"> Andhra Pradesh, India.</span>
                     <br />I studied at RGUKT-SRIKAKULAM in Computer Science Department and 
-                    graduated in the year 2022. currently, i'm a <span className="purple">Software Developer.</span>
+                    graduated in the year 2022. Currently, i'm working as a <span className="purple">Software Developer.</span>
                     <br />
                     <br />
                     Extra activities that I love to do are..
@@ -79,8 +80,8 @@ const About = () => {
           <Row>
             <Col className="md-12">
                 <div className="d-flex flex-wrap align-items-center justify-content-center">
-                    {skills?.map((skill) => {
-                        return <SkillsCard iconName={skill.icon} name={skill.skill} />
+                    {skills?.map((skill, idx) => {
+                        return <SkillsCard iconName={skill.icon} name={skill.skill} key={idx} />
                     })}
                 </div>
             </Col>
@@ -91,8 +92,8 @@ const About = () => {
           <Row>
             <Col className="md-12">
                 <div className="d-flex flex-wrap align-items-center justify-content-center">
-                    {tools?.map((tool) => {
-                        return <SkillsCard iconName={tool.icon} name={tool.toolname} />
+                    {tools?.map((tool,idx) => {
+                        return <SkillsCard iconName={tool.icon} name={tool.toolname} key={idx} />
                     })}
                 </div>
             </Col>

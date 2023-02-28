@@ -14,24 +14,22 @@ const Intro = () => {
                   Who am I ?
                 </h1>
                 <p className="pt-5 text-left" style={{ fontSize: "1.5em" }}>
-                  Curious to learns something new Everyday and I'm good at Programming and Web developing
-                  <i>
-                    <b className="purple"> Python, Javascript and React js. </b>
-                  </i>
+                  I'm the one who is curious to learns new things everyday.
+                  {/* <i>
+                    <b className="purple">Javascript</b>
+                  </i> */}
                   <br />
-                    Interested in developing <b className="purple">Web and Apps</b> that people use in their day to day life &nbsp;
+                    Interested in developing <b className="purple">Web and Apps</b> that people use in their day to day life. &nbsp;
                   <br />
-                  Whenever possible, I also apply my passion for developing products
-                  with <b className="purple">Node.js</b> and
+                  I love to share new things with others and i had a dream to start my own startup company.
+                  {/* with <b className="purple">Node.js</b> and */}
+                  <br/>
+                  I love to work with Modern
                   <i>
                     <b className="purple">
                       {" "}
-                      Modern Javascript Library and Frameworks
+                       Javascript Libraries, Frameworks and all about web and apps.
                     </b>
-                  </i>
-                  &nbsp; like
-                  <i>
-                    <b className="purple"> React.js and Next.js</b>
                   </i>
                 </p>
               </Col>

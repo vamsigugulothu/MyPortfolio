@@ -8,6 +8,13 @@ export const projects= [
             "Image": "https://s2.research.com/wp-content/uploads/2022/06/26084506/OpenWater-dashboard-1-1024x626.png"
         },
         {
+            "Pname":"Stack overflow clone",
+            "Technologies": ["React js","Node js","Express","Mongodb","Material UI"],
+            "Description": "This is a stackoverflow clone. Here users can login/register and share their queries and  aslo they can answer to someones queries",
+            "Link": "https://stackoverflow2023.netlify.app/",
+            "Image": "https://jessehouwing.net/content/images/size/w2000/2018/07/stackoverflow-1.png"
+        },
+        {
             "Pname":"Online Car Rental Agency",
             "Technologies": [ "Html", "css","Bootstrap","Javascript","PHP","MySql"],
             "Description": "Car Rental Agents provide support to people who need to rent a vehicle for a short period of time. This system enables the company to make their services available to the public through the internet and also keep records about their services There are two kinds of users: 1) Agencies : Person who wants rent their vehicle. they can login as agency and rent their car. 2) Customers: Persons who wants to buy vehicles for rent. they can login and able to see all the available vehicles",
@@ -34,5 +41,12 @@ export const projects= [
             "Description": "Developed facebook clone website improve my frontend skills and also this is part of my Aweteck internship. Majorly focused on reponsive user experience.",
             "Link": "https://github.com/vamsigugulothu",
             "Image": "https://i.pcmag.com/imagery/articles/04HUXgEu0I3mdCOejOjQpNE-5..v1620748900.jpg"
+        },
+        {
+            "Pname": "Movie Search App",
+            "Technologies": [ "React js", "Reddux","CSS","Javascript"],
+            "Description": "Developed movie search app using existing API to improve my skills on api integration.",
+            "Link": "https://movies-search-app-2023.netlify.app/",
+            "Image": "https://www.shutterstock.com/image-vector/online-cinema-art-movie-watching-260nw-700366096.jpg"
         }
     ]
